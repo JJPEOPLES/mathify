@@ -74,35 +74,34 @@ const About = () => {
         <section className="about-section">
           <h2 className="section-title">Our Team</h2>
           <p className="team-intro">
-            Mathify is developed and maintained by a team of educators, mathematicians, and developers who are
-            passionate about mathematics education.
+            Mathify is developed by a young programmer who is passionate about helping others learn mathematics.
           </p>
           <div className="team-grid">
             <div className="team-member">
-              <div className="member-avatar">👨‍🏫</div>
-              <h3 className="member-name">Dr. Alex Johnson</h3>
-              <p className="member-role">Mathematics Educator</p>
+              <div className="member-avatar">👦</div>
+              <h3 className="member-name">Prime</h3>
+              <p className="member-role">Creator & Developer</p>
               <p className="member-bio">
-                With over 15 years of experience teaching mathematics at various levels, Dr. Johnson ensures that our
-                content is pedagogically sound and accessible to learners of all abilities.
+                A 10-year-old coding enthusiast who created Mathify to help students of all ages learn and enjoy mathematics. 
+                Prime believes that learning math should be fun and accessible to everyone.
               </p>
             </div>
             <div className="team-member">
-              <div className="member-avatar">👩‍💻</div>
-              <h3 className="member-name">Sarah Chen</h3>
-              <p className="member-role">Lead Developer</p>
+              <div className="member-avatar">🧩</div>
+              <h3 className="member-name">You!</h3>
+              <p className="member-role">Learner & Contributor</p>
               <p className="member-bio">
-                Sarah brings her expertise in web development and educational technology to create an engaging and
-                user-friendly learning platform.
+                Mathify is made for you! Your feedback and suggestions help make this platform better for everyone. 
+                Learning together creates a stronger community.
               </p>
             </div>
             <div className="team-member">
-              <div className="member-avatar">👨‍🔬</div>
-              <h3 className="member-name">Michael Rodriguez</h3>
-              <p className="member-role">Mathematics Content Creator</p>
+              <div className="member-avatar">🤖</div>
+              <h3 className="member-name">AI Assistant</h3>
+              <p className="member-role">Development Helper</p>
               <p className="member-bio">
-                Michael combines his background in pure mathematics with a talent for clear explanation to develop our
-                comprehensive library of math topics and practice problems.
+                An AI assistant helps with coding challenges and content creation, making it possible for a young developer 
+                to build a comprehensive math learning platform.
               </p>
             </div>
           </div>
@@ -136,8 +135,8 @@ const About = () => {
               <div className="contact-icon">🌐</div>
               <h3>GitHub</h3>
               <p>
-                <a href="https://github.com/yourusername/mathify" target="_blank" rel="noopener noreferrer">
-                  github.com/yourusername/mathify
+                <a href="https://github.com/JJPEOPLES/mathify" target="_blank" rel="noopener noreferrer">
+                  github.com/JJPEOPLES/mathify
                 </a>
               </p>
             </div>
