@@ -246,7 +246,7 @@ const QuadraticEquations = () => {
                 <strong>If b² - 4ac = 0:</strong> The equation has one repeated real solution (a double root).
               </li>
               <li>
-                <strong>If b² - 4ac < 0:</strong> The equation has two complex solutions (not real).
+                <strong>If b² - 4ac &lt; 0:</strong> The equation has two complex solutions (not real).
               </li>
             </ul>
             <div className="example-box">
