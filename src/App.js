@@ -27,6 +27,14 @@ import QuadraticEquations from './pages/topics/QuadraticEquations';
 import Functions from './pages/topics/Functions';
 import Polynomials from './pages/topics/Polynomials';
 
+// Topic Pages - Geometry
+import Geometry from './pages/topics/Geometry';
+import Trigonometry from './pages/topics/Trigonometry';
+
+// Topic Pages - Statistics & Probability
+import Statistics from './pages/topics/Statistics';
+import Probability from './pages/topics/Probability';
+
 function App() {
   return (
     <Router>
@@ -49,6 +57,14 @@ function App() {
             <Route path="/topics/quadratic-equations" element={<QuadraticEquations />} />
             <Route path="/topics/functions" element={<Functions />} />
             <Route path="/topics/polynomials" element={<Polynomials />} />
+            
+            {/* Geometry Routes */}
+            <Route path="/topics/geometry" element={<Geometry />} />
+            <Route path="/topics/trigonometry" element={<Trigonometry />} />
+            
+            {/* Statistics & Probability Routes */}
+            <Route path="/topics/statistics" element={<Statistics />} />
+            <Route path="/topics/probability" element={<Probability />} />
             
             <Route path="/practice" element={<Practice />} />
             <Route path="/calculator" element={<Calculator />} />
