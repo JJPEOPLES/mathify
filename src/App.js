@@ -17,6 +17,9 @@ import NotFound from './pages/NotFound';
 // Topic Pages
 import Algebra from './pages/topics/Algebra';
 import AdditionSubtraction from './pages/topics/AdditionSubtraction';
+import MultiplicationDivision from './pages/topics/MultiplicationDivision';
+import Fractions from './pages/topics/Fractions';
+import Decimals from './pages/topics/Decimals';
 
 function App() {
   return (
@@ -29,6 +32,9 @@ function App() {
             <Route path="/topics" element={<Topics />} />
             <Route path="/topics/algebra" element={<Algebra />} />
             <Route path="/topics/addition-subtraction" element={<AdditionSubtraction />} />
+            <Route path="/topics/multiplication-division" element={<MultiplicationDivision />} />
+            <Route path="/topics/fractions" element={<Fractions />} />
+            <Route path="/topics/decimals" element={<Decimals />} />
             <Route path="/practice" element={<Practice />} />
             <Route path="/calculator" element={<Calculator />} />
             <Route path="/about" element={<About />} />
