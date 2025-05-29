@@ -26,6 +26,11 @@ const About = () => {
                 through clear explanations, interactive examples, and plenty of practice opportunities.
               </p>
               <p>
+                Mathify is built by the same team behind <a href="https://k2lang.org" target="_blank" rel="noopener noreferrer">K2</a>, 
+                the blazingly fast programming language. We're passionate about both mathematics and computer science, 
+                and we believe that learning these subjects can be fun and accessible for everyone.
+              </p>
+              <p>
                 Whether you're a student looking to improve your math skills, a parent helping your child with homework,
                 or an adult brushing up on math concepts, Mathify is here to support your learning journey.
               </p>
@@ -139,6 +144,16 @@ const About = () => {
                   github.com/JJPEOPLES/mathify
                 </a>
               </p>
+            </div>
+            <div className="contact-item">
+              <div className="contact-icon">⚡</div>
+              <h3>K2 - The Fastest Language</h3>
+              <p>
+                <a href="https://k2lang.org" target="_blank" rel="noopener noreferrer">
+                  k2lang.org
+                </a>
+              </p>
+              <p>Check out K2, the blazingly fast programming language!</p>
             </div>
           </div>
         </section>
