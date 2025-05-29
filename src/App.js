@@ -13,6 +13,9 @@ import Practice from './pages/Practice';
 import Calculator from './pages/Calculator';
 import About from './pages/About';
 
+// Topic Pages
+import Algebra from './pages/topics/Algebra';
+
 function App() {
   return (
     <Router>
@@ -22,6 +25,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/topics" element={<Topics />} />
+            <Route path="/topics/algebra" element={<Algebra />} />
             <Route path="/practice" element={<Practice />} />
             <Route path="/calculator" element={<Calculator />} />
             <Route path="/about" element={<About />} />

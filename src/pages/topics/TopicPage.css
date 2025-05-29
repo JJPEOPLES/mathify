@@ -1,0 +1,163 @@
+.topic-page {
+  padding: 40px 0;
+}
+
+.topic-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.topic-title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.topic-description {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.topic-section {
+  margin-bottom: 60px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  margin-bottom: 25px;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 10px;
+}
+
+.topic-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.topic-content p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.topic-content h3 {
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+  margin: 30px 0 15px;
+}
+
+.topic-content h4 {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin: 20px 0 10px;
+}
+
+.example-box {
+  background-color: #f5f5f5;
+  border-left: 4px solid var(--accent-color);
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 4px;
+}
+
+.example-box h3, .example-box h4 {
+  margin-top: 0;
+  color: var(--accent-color);
+}
+
+.example-box p {
+  margin-bottom: 15px;
+}
+
+.example-box p:last-child {
+  margin-bottom: 0;
+}
+
+/* Practice Problems Section */
+.practice-problems {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.problem-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  transition: transform 0.3s ease;
+}
+
+.problem-card:hover {
+  transform: translateY(-5px);
+}
+
+.problem-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.problem-card p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.show-solution-btn {
+  margin-bottom: 15px;
+}
+
+.solution {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 15px;
+  display: none; /* Initially hidden, will be shown with JavaScript */
+}
+
+/* Next Steps Section */
+.next-steps {
+  background-color: #f5f5f5;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.related-topics {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.related-topics li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.related-topics a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.related-topics a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .topic-title {
+    font-size: 2rem;
+  }
+  
+  .section-title {
+    font-size: 1.6rem;
+  }
+  
+  .practice-problems {
+    grid-template-columns: 1fr;
+  }
+}
