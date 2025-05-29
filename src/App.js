@@ -12,9 +12,11 @@ import Topics from './pages/Topics';
 import Practice from './pages/Practice';
 import Calculator from './pages/Calculator';
 import About from './pages/About';
+import NotFound from './pages/NotFound';
 
 // Topic Pages
 import Algebra from './pages/topics/Algebra';
+import AdditionSubtraction from './pages/topics/AdditionSubtraction';
 
 function App() {
   return (
@@ -26,9 +28,11 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/topics" element={<Topics />} />
             <Route path="/topics/algebra" element={<Algebra />} />
+            <Route path="/topics/addition-subtraction" element={<AdditionSubtraction />} />
             <Route path="/practice" element={<Practice />} />
             <Route path="/calculator" element={<Calculator />} />
             <Route path="/about" element={<About />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />
