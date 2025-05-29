@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Server Error | Mathify</title>
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    :root {
+      --primary-color: #4a6fa5;
+      --secondary-color: #166088;
+      --accent-color: #4cb5ae;
+      --background-color: #f8f9fa;
+      --text-color: #333;
+      --error-color: #e74c3c;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    
+    .error-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    
+    .error-code {
+      font-size: 8rem;
+      font-weight: bold;
+      color: var(--error-color);
+      margin-bottom: 1rem;
+      line-height: 1;
+    }
+    
+    .error-title {
+      font-size: 2.5rem;
+      color: var(--primary-color);
+      margin-bottom: 1.5rem;
+    }
+    
+    .error-message {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+    
+    .error-image {
+      width: 300px;
+      height: auto;
+      margin-bottom: 2rem;
+    }
+    
+    .btn {
+      display: inline-block;
+      background-color: var(--primary-color);
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      margin: 0.5rem;
+    }
+    
+    .btn:hover {
+      background-color: var(--secondary-color);
+    }
+    
+    .btn-outline {
+      background-color: transparent;
+      border: 2px solid var(--primary-color);
+      color: var(--primary-color);
+    }
+    
+    .btn-outline:hover {
+      background-color: var(--primary-color);
+      color: white;
+    }
+    
+    .math-joke {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: rgba(76, 181, 174, 0.1);
+      border-radius: 8px;
+      max-width: 600px;
+    }
+    
+    .navbar {
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+    
+    .logo span {
+      color: var(--accent-color);
+    }
+    
+    .footer {
+      background-color: white;
+      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    
+    @media (max-width: 768px) {
+      .error-code {
+        font-size: 6rem;
+      }
+      
+      .error-title {
+        font-size: 2rem;
+      }
+      
+      .error-image {
+        width: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="/" class="logo">Math<span>ify</span></a>
+  </nav>
+
+  <div class="error-container">
+    <div class="error-code">500</div>
+    <h1 class="error-title">Server Error</h1>
+    <p class="error-message">
+      Oops! Our server is having trouble solving this equation. 
+      Our math experts are working on fixing the problem. Please try again later.
+    </p>
+    
+    <img src="https://cdn.pixabay.com/photo/2017/02/12/21/29/false-2061131_960_720.png" alt="Server error illustration" class="error-image">
+    
+    <div class="buttons">
+      <a href="/" class="btn">Go to Homepage</a>
+      <a href="javascript:location.reload()" class="btn btn-outline">Try Again</a>
+    </div>
+    
+    <div class="math-joke">
+      <p><strong>Math Joke:</strong> Why don't mathematicians throw parties? Because you should never drink and derive.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2024 Mathify. All rights reserved.</p>
+  </footer>
+</body>
+</html>
